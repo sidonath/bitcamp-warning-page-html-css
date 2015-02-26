@@ -1,0 +1,15 @@
+body {
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  background-color: #2B2B2B;
+}
+
+#container {
+  background-color: #645483;
+  color: white;
+  width: 900px;
+}
+
+.intro h2 {
+  color: #C2D202;
+}
