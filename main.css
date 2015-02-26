@@ -10,6 +10,23 @@ body {
   width: 900px;
 }
 
+/* Image replacement technique: Improved NIR:
+ * https://css-tricks.com/examples/ImageReplacement/
+ */
+h1.site-title {
+   height: 100px;
+   width: 341px;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+h1.site-title:before {
+   content: url(bitcamp-logo.jpg);
+   display: inline-block;
+   font-size: 0;
+   line-height: 0;
+}
+
 .intro h2 {
   color: #C2D202;
 }
