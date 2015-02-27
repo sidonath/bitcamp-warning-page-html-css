@@ -36,3 +36,12 @@ h1.site-title:before {
 .intro h2 {
   color: #C2D202;
 }
+
+.button {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+
+
