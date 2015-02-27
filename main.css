@@ -36,3 +36,10 @@ h1.site-title:before {
 .intro h2 {
   color: #C2D202;
 }
+
+.button {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
