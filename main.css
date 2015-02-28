@@ -2,6 +2,7 @@ body {
   font-family: Roboto Condensed;
   font-weight: 700;
   background-color: #2B2B2B;
+  text-transform: uppercase;
 }
 
 strong{
@@ -43,4 +44,8 @@ h1.site-title:before {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+li {
+  margin: 10px 10px 10px 10px;
 }
